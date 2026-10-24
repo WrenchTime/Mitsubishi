@@ -602,7 +602,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
   "signals": [
-    {"id": "MITSUBISHI_EXH_GAS_T",      "path": "Engine", "fmt": {           "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200, "nullmin": -200, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
+    {"id": "MITSUBISHI_EXH_GAS_T",      "path": "Engine", "fmt": {           "len": 8, "max": 255,                                                                 "unit": "scalar"     }, "name": "Exhaust gas temperature, raw byte"},
     {"id": "MITSUBISHI_CAT_T",          "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200, "nullmin": -200, "unit": "celsius"    }, "name": "Catalyst temperature"},
     {"id": "MITSUBISHI_DPF_T",          "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200,                  "unit": "celsius"    }, "name": "Diesel particulate filter temperature"},
     {"id": "MITSUBISHI_DPF_DIFF_P_7E0", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 117,  "min": -10,            "div": 2, "add": -10,                   "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"},
